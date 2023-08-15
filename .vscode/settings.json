@@ -1,3 +1,8 @@
 {
-    "editor.wordWrap": "on"
+    "editor.wordWrap": "on",
+    "files.associations": {
+        "*.ejs": "html",
+        "*.js": "javascript",
+        "iostream": "cpp"
+    }
 }
