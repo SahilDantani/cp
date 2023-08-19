@@ -34,4 +34,5 @@ int binaryExpo(int a,long long b,int m){
 int main(){
     // (52^62^32)%M
     cout<<binaryExpo(50,binaryExpo(62,32,M-1),M);
+    // use(%⌀m) instead of m-1 for general case
 }
