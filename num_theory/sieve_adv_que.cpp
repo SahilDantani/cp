@@ -46,6 +46,7 @@ int main(){
                 hp[j]=i;
             }
         }
+    }
     int n,q;
     cin>>n>>q;
     for(int i=0;i<n;i++){
@@ -80,4 +81,3 @@ int main(){
         cout<<(isPossible?"YES\n":"NO\n");
     }
     }
-}
